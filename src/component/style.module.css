@@ -1,0 +1,19 @@
+.tictactoecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.square {
+  border: 2px solid cornflowerblue;
+  float: left;
+  font-size: 40px;
+  height: 100px;
+  padding: 0px;
+  text-align: center;
+  width: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  cursor: pointer;
+}
